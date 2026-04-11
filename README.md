@@ -1,19 +1,35 @@
 # Customer Shopping Behaviour Analysis
 
 Project OVERVIEW
-.
+The Customer Shopping Behavior Analysis project aims to explore customer purchasing patterns to uncover meaningful insights that support data-driven business decisions. This analysis helps organizations improve sales performance, enhance customer satisfaction, and strengthen long-term loyalty. The project was completed using Python for data cleaning, SQL for analysis, and Power BI for interactive visualization.
 
-Dataset Description
-The dataset contains customer demographic details,purchase behavior,product categories, rating, and subscription information
+KPI Definitions
+Total Revenue
+The total income generated from all customer purchases.
+Average Purchase Value
+The average amount spent per transaction.
+Total Customers
+The total number of unique customers.
+Average Rating
+The average customer satisfaction score.
+Repeat Purchase Rate
+The percentage of customers who made more than one purchase.
+Subscription Rate
+The percentage of customers subscribed to the service.
 
-Steps Performed
-Handling missing values
-standardizing column names
-Remove unnecessary columns
-Created new features(age_group,purchase_frequency_days)
+Data Cleaning (Python)
+Loaded the dataset using Pandas.
+Handled missing and null values.
+Standardized column names using snake_case.
+Removed redundant columns.
+Created new features such as age_group and purchase_frequency_days.
+Ensured data consistency and accuracy.
 
-SQL (Data analysis)
-
+Data Analysis (SQL)
+Imported cleaned data into MySQL/PostgreSQL.
+Performed analytical queries to answer business questions.
+Analyzed revenue trends, customer behavior, and product performance.
+Structured and stored data for reporting.
 
 Power BI (Dasboards)
 Built interactive KPI cards and visualizations.
